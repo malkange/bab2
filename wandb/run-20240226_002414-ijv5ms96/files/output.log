@@ -1,0 +1,5 @@
+
+[480 360  32]
+Using MSE for heatmap regression, weight: 100
+Using L1 for offset regression, weight: 10
+======

@@ -1,0 +1,60 @@
+[480 360  32]
+load checkpoint file /visionai-postech/eccv24/ckpts/tmp.pt
+Using MSE for heatmap regression, weight: 100
+Using L1 for offset regression, weight: 10
+[PANOPTIC EVAL] IGNORE:  [ 0 20]
+[PANOPTIC EVAL] INCLUDE:  [ 1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19]
+Epoch 0 => Start Evaluation...
+epoch: 0   lr: 0.00400
+
+
+
+
+  0%|▉                                                                                                                                                                                                    | 5/1018 [00:14<34:07,  2.02s/it]
+  0%|▉                                                                                                                                                                                                    | 5/1018 [00:16<54:17,  3.22s/it]
+Validation per class PQ, SQ, RQ and IoU:
+                 car :   0.00%    0.00%    0.00%    0.00%
+             bicycle :   0.00%    0.00%    0.00%    0.00%
+          motorcycle :   0.00%    0.00%    0.00%    0.00%
+               truck :   0.00%    0.00%    0.00%    0.00%
+                 bus :   0.00%    0.00%    0.00%    0.00%
+              person :   0.00%    0.00%    0.00%    0.00%
+           bicyclist :   0.00%    0.00%    0.00%    0.00%
+        motorcyclist :   0.00%    0.00%    0.00%    0.00%
+                road :   0.00%    0.00%    0.00%   20.59%
+             parking :   0.00%    0.00%    0.00%    0.03%
+            sidewalk :   0.00%    0.00%    0.00%    3.42%
+        other-ground :   0.00%    0.00%    0.00%    0.01%
+            building :   0.00%    0.00%    0.00%    1.42%
+               fence :   0.00%    0.00%    0.00%    0.27%
+          vegetation :   0.00%    0.00%    0.00%   40.20%
+               trunk :   0.00%    0.00%    0.00%    0.01%
+             terrain :   0.00%    0.00%    0.00%    2.86%
+                pole :   0.00%    0.00%    0.00%    0.00%
+        traffic-sign :   0.00%    0.00%    0.00%    0.00%
+PQ 0.0  PQ_dagger  0.0  SQ 0.0  RQ 0.0  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 0.0  SQ_st 0.0  RQ_st 0.0  |  mIoU 3.6
+Current val PQ is 0.0 while the best val PQ is 0.0
+Current val miou is 3.6
+Validation per class iou:
+car : 3.49%
+bicycle : 0.00%
+motorcycle : 0.00%
+truck : 0.00%
+bus : 0.00%
+person : 0.00%
+bicyclist : 0.00%
+motorcyclist : 0.00%
+road : 20.71%
+parking : 0.03%
+sidewalk : 3.46%
+other-ground : 0.01%
+building : 1.51%
+fence : 0.28%
+vegetation : 41.38%
+trunk : 0.01%
+terrain : 2.91%
+pole : 0.00%
+traffic-sign : 0.00%
+Current val miou is 3.9
+timecost for a validation 34816.09375
+Epoch 0 => Start Training...

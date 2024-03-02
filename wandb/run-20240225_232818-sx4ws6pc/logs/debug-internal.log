@@ -1,0 +1,218 @@
+2024-02-25 23:28:18,363 INFO    StreamThr :1230030 [internal.py:wandb_internal():86] W&B internal server running at pid: 1230030, started at: 2024-02-25 23:28:18.362717
+2024-02-25 23:28:18,364 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: status
+2024-02-25 23:28:18,366 INFO    WriterThread:1230030 [datastore.py:open_for_write():87] open: /home/poscoict/Desktop/samseg3d_final/wandb/run-20240225_232818-sx4ws6pc/run-sx4ws6pc.wandb
+2024-02-25 23:28:18,366 DEBUG   SenderThread:1230030 [sender.py:send():382] send: header
+2024-02-25 23:28:18,366 DEBUG   SenderThread:1230030 [sender.py:send():382] send: run
+2024-02-25 23:28:18,888 INFO    SenderThread:1230030 [dir_watcher.py:__init__():211] watching files in: /home/poscoict/Desktop/samseg3d_final/wandb/run-20240225_232818-sx4ws6pc/files
+2024-02-25 23:28:18,888 INFO    SenderThread:1230030 [sender.py:_start_run_threads():1136] run started: sx4ws6pc with start time 1708871298.362116
+2024-02-25 23:28:18,895 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: check_version
+2024-02-25 23:28:18,895 DEBUG   SenderThread:1230030 [sender.py:send_request():409] send_request: check_version
+2024-02-25 23:28:18,958 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: run_start
+2024-02-25 23:28:18,964 DEBUG   HandlerThread:1230030 [system_info.py:__init__():27] System info init
+2024-02-25 23:28:18,964 DEBUG   HandlerThread:1230030 [system_info.py:__init__():42] System info init done
+2024-02-25 23:28:18,964 INFO    HandlerThread:1230030 [system_monitor.py:start():194] Starting system monitor
+2024-02-25 23:28:18,964 INFO    SystemMonitor:1230030 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-02-25 23:28:18,965 INFO    HandlerThread:1230030 [system_monitor.py:probe():214] Collecting system info
+2024-02-25 23:28:18,965 INFO    SystemMonitor:1230030 [interfaces.py:start():190] Started cpu monitoring
+2024-02-25 23:28:18,966 INFO    SystemMonitor:1230030 [interfaces.py:start():190] Started disk monitoring
+2024-02-25 23:28:18,967 INFO    SystemMonitor:1230030 [interfaces.py:start():190] Started gpu monitoring
+2024-02-25 23:28:18,968 INFO    SystemMonitor:1230030 [interfaces.py:start():190] Started memory monitoring
+2024-02-25 23:28:18,969 INFO    SystemMonitor:1230030 [interfaces.py:start():190] Started network monitoring
+2024-02-25 23:28:19,017 DEBUG   HandlerThread:1230030 [system_info.py:probe():151] Probing system
+2024-02-25 23:28:19,022 DEBUG   HandlerThread:1230030 [gitlib.py:_init_repo():56] git repository is invalid
+2024-02-25 23:28:19,022 DEBUG   HandlerThread:1230030 [system_info.py:probe():199] Probing system done
+2024-02-25 23:28:19,022 DEBUG   HandlerThread:1230030 [system_monitor.py:probe():223] {'os': 'Linux-4.18.0-348.23.1.el8_5.x86_64-x86_64-with-glibc2.17', 'python': '3.8.16', 'heartbeatAt': '2024-02-25T14:28:19.017085', 'startedAt': '2024-02-25T14:28:18.358131', 'docker': None, 'cuda': None, 'args': ('-c', 'configs/pa_po_kitti_trainval.yaml', '-l', '/visionai-postech/eccv24/logs', '-w', 'kitti_final', '-n', 'tmp'), 'state': 'running', 'program': 'train_distributed.py', 'codePathLocal': 'train_distributed.py', 'codePath': 'train_distributed.py', 'host': 'visionai-postech2', 'username': 'poscoict', 'executable': '/opt/conda/bin/python', 'cpu_count': 48, 'cpu_count_logical': 96, 'cpu_freq': {'current': 3981.8211875, 'min': 4000.0, 'max': 4000.0}, 'cpu_freq_per_core': [{'current': 3566.03, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 3619.006, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 3865.91, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 3839.44, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}], 'disk': {'/': {'total': 2699.5527381896973, 'used': 573.2537460327148}}, 'gpu': 'NVIDIA A100 80GB PCIe', 'gpu_count': 2, 'gpu_devices': [{'name': 'NVIDIA A100 80GB PCIe', 'memory_total': 85899345920}, {'name': 'NVIDIA A100 80GB PCIe', 'memory_total': 85899345920}], 'memory': {'total': 1006.8523902893066}}
+2024-02-25 23:28:19,023 INFO    HandlerThread:1230030 [system_monitor.py:probe():224] Finished collecting system info
+2024-02-25 23:28:19,023 INFO    HandlerThread:1230030 [system_monitor.py:probe():227] Publishing system info
+2024-02-25 23:28:19,023 DEBUG   HandlerThread:1230030 [system_info.py:_save_conda():208] Saving list of conda packages installed into the current environment
+2024-02-25 23:28:19,890 INFO    Thread-12 :1230030 [dir_watcher.py:_on_file_created():271] file/dir created: /home/poscoict/Desktop/samseg3d_final/wandb/run-20240225_232818-sx4ws6pc/files/conda-environment.yaml
+2024-02-25 23:28:22,420 DEBUG   HandlerThread:1230030 [system_info.py:_save_conda():220] Saving conda packages done
+2024-02-25 23:28:22,421 INFO    HandlerThread:1230030 [system_monitor.py:probe():229] Finished publishing system info
+2024-02-25 23:28:22,426 DEBUG   SenderThread:1230030 [sender.py:send():382] send: files
+2024-02-25 23:28:22,426 INFO    SenderThread:1230030 [sender.py:_save_file():1403] saving file wandb-metadata.json with policy now
+2024-02-25 23:28:22,432 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: python_packages
+2024-02-25 23:28:22,432 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-25 23:28:22,432 DEBUG   SenderThread:1230030 [sender.py:send_request():409] send_request: python_packages
+2024-02-25 23:28:22,432 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-25 23:28:22,433 DEBUG   SenderThread:1230030 [sender.py:send_request():409] send_request: stop_status
+2024-02-25 23:28:22,759 DEBUG   SenderThread:1230030 [sender.py:send():382] send: telemetry
+2024-02-25 23:28:22,890 INFO    Thread-12 :1230030 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final/wandb/run-20240225_232818-sx4ws6pc/files/conda-environment.yaml
+2024-02-25 23:28:22,890 INFO    Thread-12 :1230030 [dir_watcher.py:_on_file_created():271] file/dir created: /home/poscoict/Desktop/samseg3d_final/wandb/run-20240225_232818-sx4ws6pc/files/requirements.txt
+2024-02-25 23:28:22,890 INFO    Thread-12 :1230030 [dir_watcher.py:_on_file_created():271] file/dir created: /home/poscoict/Desktop/samseg3d_final/wandb/run-20240225_232818-sx4ws6pc/files/output.log
+2024-02-25 23:28:22,890 INFO    Thread-12 :1230030 [dir_watcher.py:_on_file_created():271] file/dir created: /home/poscoict/Desktop/samseg3d_final/wandb/run-20240225_232818-sx4ws6pc/files/wandb-metadata.json
+2024-02-25 23:28:23,166 INFO    wandb-upload_0:1230030 [upload_job.py:push():131] Uploaded file /tmp/tmpewh6er7pwandb/nlskvb3s-wandb-metadata.json
+2024-02-25 23:28:23,761 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: status_report
+2024-02-25 23:28:24,890 INFO    Thread-12 :1230030 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final/wandb/run-20240225_232818-sx4ws6pc/files/output.log
+2024-02-25 23:28:26,891 INFO    Thread-12 :1230030 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final/wandb/run-20240225_232818-sx4ws6pc/files/output.log
+2024-02-25 23:28:27,892 INFO    Thread-12 :1230030 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final/wandb/run-20240225_232818-sx4ws6pc/files/output.log
+2024-02-25 23:28:29,380 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: status_report
+2024-02-25 23:28:34,382 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: status_report
+2024-02-25 23:28:37,432 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-25 23:28:37,433 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-25 23:28:37,433 DEBUG   SenderThread:1230030 [sender.py:send_request():409] send_request: stop_status
+2024-02-25 23:28:37,896 INFO    Thread-12 :1230030 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final/wandb/run-20240225_232818-sx4ws6pc/files/output.log
+2024-02-25 23:28:39,586 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: status_report
+2024-02-25 23:28:39,897 INFO    Thread-12 :1230030 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final/wandb/run-20240225_232818-sx4ws6pc/files/output.log
+2024-02-25 23:28:41,898 INFO    Thread-12 :1230030 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final/wandb/run-20240225_232818-sx4ws6pc/files/output.log
+2024-02-25 23:28:42,898 INFO    Thread-12 :1230030 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final/wandb/run-20240225_232818-sx4ws6pc/files/output.log
+2024-02-25 23:28:43,898 INFO    Thread-12 :1230030 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final/wandb/run-20240225_232818-sx4ws6pc/files/output.log
+2024-02-25 23:28:45,540 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: status_report
+2024-02-25 23:28:50,546 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: status_report
+2024-02-25 23:28:50,901 INFO    Thread-12 :1230030 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final/wandb/run-20240225_232818-sx4ws6pc/files/config.yaml
+2024-02-25 23:28:52,481 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-25 23:28:52,481 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-25 23:28:52,482 DEBUG   SenderThread:1230030 [sender.py:send_request():409] send_request: stop_status
+2024-02-25 23:28:56,731 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: status_report
+2024-02-25 23:29:01,731 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: status_report
+2024-02-25 23:29:06,732 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: status_report
+2024-02-25 23:29:08,857 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-25 23:29:08,857 DEBUG   SenderThread:1230030 [sender.py:send_request():409] send_request: stop_status
+2024-02-25 23:29:08,898 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-25 23:29:12,094 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: status_report
+2024-02-25 23:29:17,100 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: status_report
+2024-02-25 23:29:18,969 DEBUG   SystemMonitor:1230030 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-02-25 23:29:18,971 DEBUG   SenderThread:1230030 [sender.py:send():382] send: stats
+2024-02-25 23:29:22,972 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: status_report
+2024-02-25 23:29:26,107 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-25 23:29:26,148 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-25 23:29:26,148 DEBUG   SenderThread:1230030 [sender.py:send_request():409] send_request: stop_status
+2024-02-25 23:29:28,388 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: status_report
+2024-02-25 23:29:33,389 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: status_report
+2024-02-25 23:29:38,391 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: status_report
+2024-02-25 23:29:43,307 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-25 23:29:43,348 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-25 23:29:43,348 DEBUG   SenderThread:1230030 [sender.py:send_request():409] send_request: stop_status
+2024-02-25 23:29:43,647 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: status_report
+2024-02-25 23:29:48,648 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: status_report
+2024-02-25 23:29:48,972 DEBUG   SenderThread:1230030 [sender.py:send():382] send: stats
+2024-02-25 23:29:52,877 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-25 23:29:53,974 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: status_report
+2024-02-25 23:29:58,975 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: status_report
+2024-02-25 23:30:03,975 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: status_report
+2024-02-25 23:30:08,976 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: status_report
+2024-02-25 23:30:10,460 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-25 23:30:10,460 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-25 23:30:10,461 DEBUG   SenderThread:1230030 [sender.py:send_request():409] send_request: stop_status
+2024-02-25 23:30:14,705 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: status_report
+2024-02-25 23:30:18,585 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-25 23:30:18,975 DEBUG   SenderThread:1230030 [sender.py:send():382] send: stats
+2024-02-25 23:30:19,976 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: status_report
+2024-02-25 23:30:25,460 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-25 23:30:25,460 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: status_report
+2024-02-25 23:30:25,461 DEBUG   SenderThread:1230030 [sender.py:send_request():409] send_request: stop_status
+2024-02-25 23:30:25,936 INFO    Thread-12 :1230030 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final/wandb/run-20240225_232818-sx4ws6pc/files/output.log
+2024-02-25 23:30:29,938 INFO    Thread-12 :1230030 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final/wandb/run-20240225_232818-sx4ws6pc/files/output.log
+2024-02-25 23:30:30,658 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: status_report
+2024-02-25 23:30:33,939 INFO    Thread-12 :1230030 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final/wandb/run-20240225_232818-sx4ws6pc/files/output.log
+2024-02-25 23:30:35,940 INFO    Thread-12 :1230030 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final/wandb/run-20240225_232818-sx4ws6pc/files/output.log
+2024-02-25 23:30:36,078 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: status_report
+2024-02-25 23:30:39,941 INFO    Thread-12 :1230030 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final/wandb/run-20240225_232818-sx4ws6pc/files/output.log
+2024-02-25 23:30:40,460 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-25 23:30:40,460 DEBUG   SenderThread:1230030 [sender.py:send_request():409] send_request: stop_status
+2024-02-25 23:30:41,736 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: status_report
+2024-02-25 23:30:41,942 INFO    Thread-12 :1230030 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final/wandb/run-20240225_232818-sx4ws6pc/files/output.log
+2024-02-25 23:30:43,943 INFO    Thread-12 :1230030 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final/wandb/run-20240225_232818-sx4ws6pc/files/output.log
+2024-02-25 23:30:47,201 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: status_report
+2024-02-25 23:30:47,944 INFO    Thread-12 :1230030 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final/wandb/run-20240225_232818-sx4ws6pc/files/output.log
+2024-02-25 23:30:48,976 DEBUG   SenderThread:1230030 [sender.py:send():382] send: stats
+2024-02-25 23:30:49,945 INFO    Thread-12 :1230030 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final/wandb/run-20240225_232818-sx4ws6pc/files/output.log
+2024-02-25 23:30:51,946 INFO    Thread-12 :1230030 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final/wandb/run-20240225_232818-sx4ws6pc/files/output.log
+2024-02-25 23:30:52,801 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: status_report
+2024-02-25 23:30:55,460 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-25 23:30:55,460 DEBUG   SenderThread:1230030 [sender.py:send_request():409] send_request: stop_status
+2024-02-25 23:30:57,948 INFO    Thread-12 :1230030 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final/wandb/run-20240225_232818-sx4ws6pc/files/output.log
+2024-02-25 23:30:58,751 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: status_report
+2024-02-25 23:30:59,951 INFO    Thread-12 :1230030 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final/wandb/run-20240225_232818-sx4ws6pc/files/output.log
+2024-02-25 23:31:01,951 INFO    Thread-12 :1230030 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final/wandb/run-20240225_232818-sx4ws6pc/files/output.log
+2024-02-25 23:31:03,943 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: status_report
+2024-02-25 23:31:03,952 INFO    Thread-12 :1230030 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final/wandb/run-20240225_232818-sx4ws6pc/files/output.log
+2024-02-25 23:31:05,953 INFO    Thread-12 :1230030 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final/wandb/run-20240225_232818-sx4ws6pc/files/output.log
+2024-02-25 23:31:09,926 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: status_report
+2024-02-25 23:31:09,954 INFO    Thread-12 :1230030 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final/wandb/run-20240225_232818-sx4ws6pc/files/output.log
+2024-02-25 23:31:10,464 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-25 23:31:10,464 DEBUG   SenderThread:1230030 [sender.py:send_request():409] send_request: stop_status
+2024-02-25 23:31:11,955 INFO    Thread-12 :1230030 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final/wandb/run-20240225_232818-sx4ws6pc/files/output.log
+2024-02-25 23:31:13,955 INFO    Thread-12 :1230030 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final/wandb/run-20240225_232818-sx4ws6pc/files/output.log
+2024-02-25 23:31:15,231 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: status_report
+2024-02-25 23:31:17,957 INFO    Thread-12 :1230030 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final/wandb/run-20240225_232818-sx4ws6pc/files/output.log
+2024-02-25 23:31:18,978 DEBUG   SenderThread:1230030 [sender.py:send():382] send: stats
+2024-02-25 23:31:19,958 INFO    Thread-12 :1230030 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final/wandb/run-20240225_232818-sx4ws6pc/files/output.log
+2024-02-25 23:31:20,799 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: status_report
+2024-02-25 23:31:21,958 INFO    Thread-12 :1230030 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final/wandb/run-20240225_232818-sx4ws6pc/files/output.log
+2024-02-25 23:31:25,460 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-25 23:31:25,461 DEBUG   SenderThread:1230030 [sender.py:send_request():409] send_request: stop_status
+2024-02-25 23:31:25,959 INFO    Thread-12 :1230030 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final/wandb/run-20240225_232818-sx4ws6pc/files/output.log
+2024-02-25 23:31:26,692 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: status_report
+2024-02-25 23:31:31,961 INFO    Thread-12 :1230030 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final/wandb/run-20240225_232818-sx4ws6pc/files/output.log
+2024-02-25 23:31:32,014 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: status_report
+2024-02-25 23:31:37,015 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: status_report
+2024-02-25 23:31:39,964 INFO    Thread-12 :1230030 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final/wandb/run-20240225_232818-sx4ws6pc/files/output.log
+2024-02-25 23:31:40,461 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-25 23:31:40,462 DEBUG   SenderThread:1230030 [sender.py:send_request():409] send_request: stop_status
+2024-02-25 23:31:41,965 INFO    Thread-12 :1230030 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final/wandb/run-20240225_232818-sx4ws6pc/files/output.log
+2024-02-25 23:31:42,856 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: status_report
+2024-02-25 23:31:43,966 INFO    Thread-12 :1230030 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final/wandb/run-20240225_232818-sx4ws6pc/files/output.log
+2024-02-25 23:31:45,967 INFO    Thread-12 :1230030 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final/wandb/run-20240225_232818-sx4ws6pc/files/output.log
+2024-02-25 23:31:48,183 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: status_report
+2024-02-25 23:31:48,980 DEBUG   SenderThread:1230030 [sender.py:send():382] send: stats
+2024-02-25 23:31:53,982 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: status_report
+2024-02-25 23:31:55,461 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-25 23:31:55,462 DEBUG   SenderThread:1230030 [sender.py:send_request():409] send_request: stop_status
+2024-02-25 23:31:59,493 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: status_report
+2024-02-25 23:31:59,985 INFO    Thread-12 :1230030 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final/wandb/run-20240225_232818-sx4ws6pc/files/output.log
+2024-02-25 23:32:03,986 INFO    Thread-12 :1230030 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final/wandb/run-20240225_232818-sx4ws6pc/files/output.log
+2024-02-25 23:32:05,336 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: status_report
+2024-02-25 23:32:07,988 INFO    Thread-12 :1230030 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final/wandb/run-20240225_232818-sx4ws6pc/files/output.log
+2024-02-25 23:32:10,461 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-25 23:32:10,461 DEBUG   SenderThread:1230030 [sender.py:send_request():409] send_request: stop_status
+2024-02-25 23:32:10,721 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: status_report
+2024-02-25 23:32:11,989 INFO    Thread-12 :1230030 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final/wandb/run-20240225_232818-sx4ws6pc/files/output.log
+2024-02-25 23:32:13,990 INFO    Thread-12 :1230030 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final/wandb/run-20240225_232818-sx4ws6pc/files/output.log
+2024-02-25 23:32:15,991 INFO    Thread-12 :1230030 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final/wandb/run-20240225_232818-sx4ws6pc/files/output.log
+2024-02-25 23:32:16,236 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: status_report
+2024-02-25 23:32:18,981 DEBUG   SenderThread:1230030 [sender.py:send():382] send: stats
+2024-02-25 23:32:19,993 INFO    Thread-12 :1230030 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final/wandb/run-20240225_232818-sx4ws6pc/files/output.log
+2024-02-25 23:32:21,993 INFO    Thread-12 :1230030 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final/wandb/run-20240225_232818-sx4ws6pc/files/output.log
+2024-02-25 23:32:22,020 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: status_report
+2024-02-25 23:32:25,461 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-25 23:32:25,461 DEBUG   SenderThread:1230030 [sender.py:send_request():409] send_request: stop_status
+2024-02-25 23:32:25,999 INFO    Thread-12 :1230030 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final/wandb/run-20240225_232818-sx4ws6pc/files/output.log
+2024-02-25 23:32:27,718 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: status_report
+2024-02-25 23:32:28,000 INFO    Thread-12 :1230030 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final/wandb/run-20240225_232818-sx4ws6pc/files/output.log
+2024-02-25 23:32:32,001 INFO    Thread-12 :1230030 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final/wandb/run-20240225_232818-sx4ws6pc/files/output.log
+2024-02-25 23:32:33,432 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: status_report
+2024-02-25 23:32:34,002 INFO    Thread-12 :1230030 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final/wandb/run-20240225_232818-sx4ws6pc/files/output.log
+2024-02-25 23:32:39,220 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: status_report
+2024-02-25 23:32:40,005 INFO    Thread-12 :1230030 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final/wandb/run-20240225_232818-sx4ws6pc/files/output.log
+2024-02-25 23:32:40,461 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-25 23:32:40,462 DEBUG   SenderThread:1230030 [sender.py:send_request():409] send_request: stop_status
+2024-02-25 23:32:42,005 INFO    Thread-12 :1230030 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final/wandb/run-20240225_232818-sx4ws6pc/files/output.log
+2024-02-25 23:32:44,763 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: status_report
+2024-02-25 23:32:48,982 DEBUG   SenderThread:1230030 [sender.py:send():382] send: stats
+2024-02-25 23:32:49,983 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: status_report
+2024-02-25 23:32:54,984 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: status_report
+2024-02-25 23:32:59,987 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: status_report
+2024-02-25 23:33:04,988 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: status_report
+2024-02-25 23:33:09,989 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: status_report
+2024-02-25 23:33:14,990 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: status_report
+2024-02-25 23:33:18,984 DEBUG   SenderThread:1230030 [sender.py:send():382] send: stats
+2024-02-25 23:33:20,985 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: status_report
+2024-02-25 23:33:25,986 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: status_report
+2024-02-25 23:33:30,987 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: status_report
+2024-02-25 23:33:35,988 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: status_report
+2024-02-25 23:33:40,991 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: status_report
+2024-02-25 23:33:45,992 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: status_report
+2024-02-25 23:33:48,996 DEBUG   SenderThread:1230030 [sender.py:send():382] send: stats
+2024-02-25 23:33:50,998 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: status_report
+2024-02-25 23:33:55,998 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: status_report
+2024-02-25 23:34:01,000 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: status_report
+2024-02-25 23:34:06,000 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: status_report
+2024-02-25 23:34:11,001 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: status_report
+2024-02-25 23:34:16,002 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: status_report
+2024-02-25 23:34:18,988 DEBUG   SenderThread:1230030 [sender.py:send():382] send: stats
+2024-02-25 23:34:21,074 INFO    memory    :1230030 [interfaces.py:monitor():140] Process proc.memory.rssMB has exited.
+2024-02-25 23:34:21,075 DEBUG   SystemMonitor:1230030 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-02-25 23:34:21,075 DEBUG   SystemMonitor:1230030 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-02-25 23:34:21,077 DEBUG   SenderThread:1230030 [sender.py:send():382] send: stats
+2024-02-25 23:34:21,078 DEBUG   HandlerThread:1230030 [handler.py:handle_request():146] handle_request: status_report
+2024-02-25 23:34:23,053 INFO    MainThread:1230030 [internal.py:handle_exit():76] Internal process exited

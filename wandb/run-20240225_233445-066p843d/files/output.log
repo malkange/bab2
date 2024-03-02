@@ -1,0 +1,484 @@
+
+[480 360  32]
+Using MSE for heatmap regression, weight: 100
+Using L1 for offset regression, weight: 10
+[PANOPTIC EVAL] IGNORE:  [ 0 20]
+[PANOPTIC EVAL] INCLUDE:  [ 1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19]
+Epoch 0 => Start Evaluation...
+epoch: 0   lr: 0.00400
+
+
+  0%|▌                                                                                                                                                                                                  | 3/1018 [00:15<1:24:44,  5.01s/it]
+Validation per class PQ, SQ, RQ and IoU:
+                 car :   0.00%    0.00%    0.00%    0.00%
+             bicycle :   0.00%    0.00%    0.00%    0.00%
+          motorcycle :   0.00%    0.00%    0.00%    0.00%
+               truck :   0.00%    0.00%    0.00%    0.00%
+                 bus :   0.00%    0.00%    0.00%    0.00%
+              person :   0.00%    0.00%    0.00%    0.00%
+           bicyclist :   0.00%    0.00%    0.00%    0.00%
+        motorcyclist :   0.00%    0.00%    0.00%    0.00%
+                road :   0.00%    0.00%    0.00%    0.05%
+             parking :   0.00%    0.00%    0.00%    1.28%
+            sidewalk :   0.00%    0.00%    0.00%    0.08%
+        other-ground :   0.00%    0.00%    0.00%    0.00%
+            building :   0.00%    0.00%    0.00%    0.10%
+               fence :   0.00%    0.00%    0.00%    5.13%
+          vegetation :   0.00%    0.00%    0.00%    0.00%
+               trunk :   0.00%    0.00%    0.00%    0.09%
+             terrain :   0.00%    0.00%    0.00%    0.00%
+                pole :   0.00%    0.00%    0.00%    0.00%
+        traffic-sign :   0.00%    0.00%    0.00%    0.18%
+PQ 0.0  PQ_dagger  0.0  SQ 0.0  RQ 0.0  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 0.0  SQ_st 0.0  RQ_st 0.0  |  mIoU 0.4
+****************************************
+timecost for a validation 24256.9453125
+Epoch 0 => Start Training...
+Current val PQ is 0.0 while the best val PQ is 0.0
+Current val miou is 0.4
+Validation per class iou:
+car : 0.13%
+bicycle : 0.00%
+motorcycle : 0.00%
+truck : 0.00%
+bus : 0.00%
+person : 0.00%
+bicyclist : 0.00%
+motorcyclist : 0.00%
+road : 0.05%
+parking : 1.28%
+sidewalk : 0.08%
+other-ground : 0.00%
+building : 0.10%
+fence : 5.14%
+vegetation : 0.00%
+trunk : 0.09%
+terrain : 0.00%
+pole : 0.00%
+traffic-sign : 0.18%
+Current val miou is 0.4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  1%|▊                                                                                            | 21/2392 [02:38<1:53:37,  2.88s/it, sem_loss=2.99, center_loss=3.58, offset_loss=0.565, instmap_loss=1.98, cont_loss=9.7, avg_loss=10.2]
+time cost per epoch 166384.640625
+  1%|▊                                                                                            | 21/2392 [02:46<5:13:05,  7.92s/it, sem_loss=2.99, center_loss=3.58, offset_loss=0.565, instmap_loss=1.98, cont_loss=9.7, avg_loss=10.2]
+epoch: 1   lr: 0.00400
+
+
+  0%|▌                                                                                                                                                                                                  | 3/1018 [00:11<1:05:29,  3.87s/it]
+Validation per class PQ, SQ, RQ and IoU:
+                 car :   0.00%    0.00%    0.00%    0.00%
+             bicycle :   0.00%    0.00%    0.00%    0.00%
+          motorcycle :   0.00%    0.00%    0.00%    0.00%
+               truck :   0.00%    0.00%    0.00%    0.00%
+                 bus :   0.00%    0.00%    0.00%    0.00%
+              person :   0.00%    0.00%    0.00%    0.00%
+           bicyclist :   0.00%    0.00%    0.00%    0.00%
+        motorcyclist :   0.00%    0.00%    0.00%    0.00%
+                road :   0.00%    0.00%    0.00%   30.16%
+             parking :   0.00%    0.00%    0.00%    0.09%
+            sidewalk :   0.00%    0.00%    0.00%    3.71%
+        other-ground :   0.00%    0.00%    0.00%    0.04%
+            building :   0.00%    0.00%    0.00%    5.37%
+               fence :   0.00%    0.00%    0.00%    0.74%
+          vegetation :   0.00%    0.00%    0.00%   39.09%
+               trunk :   0.00%    0.00%    0.00%    0.62%
+             terrain :   0.00%    0.00%    0.00%    9.17%
+                pole :   0.00%    0.00%    0.00%    0.20%
+        traffic-sign :   0.00%    0.00%    0.00%    0.04%
+PQ 0.0  PQ_dagger  0.0  SQ 0.0  RQ 0.0  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 0.0  SQ_st 0.0  RQ_st 0.0  |  mIoU 4.7
+****************************************
+timecost for a validation 21206.70703125
+Epoch 1 => Start Training...
+Current val PQ is 0.0 while the best val PQ is 0.0
+Current val miou is 4.7
+epoch 1 iter    21, avg_loss: 10.2, semantic loss: 3.0, center loss: 3.6, offset loss: 0.6, instmap loss: 2.0, pix loss: nan
+Validation per class iou:
+car : 0.13%
+bicycle : 0.01%
+motorcycle : 0.00%
+truck : 0.00%
+bus : 0.00%
+person : 0.03%
+bicyclist : 0.00%
+motorcyclist : 0.00%
+road : 30.18%
+parking : 0.09%
+sidewalk : 3.72%
+other-ground : 0.04%
+building : 5.39%
+fence : 0.75%
+vegetation : 39.21%
+trunk : 0.62%
+terrain : 9.20%
+pole : 0.20%
+traffic-sign : 0.04%
+Current val miou is 4.7
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  1%|▊                                                                                         | 21/2392 [01:19<2:29:03,  3.77s/it, sem_loss=2.12, center_loss=0.584, offset_loss=0.262, instmap_loss=0.803, cont_loss=9.32, avg_loss=4.71]
+epoch: 2   lr: 0.00400
+  0%|                                                                                                                                                                                                             | 0/1018 [00:00<?, ?it/s]
+time cost per epoch 79216.34375
+  0%|▏                                                                                                                                                                                                  | 1/1018 [00:05<1:33:36,  5.52s/it]
+  0%|▌                                                                                                                                                                                                    | 3/1018 [00:08<43:00,  2.54s/it]
+             bicycle :   0.00%    0.00%    0.00%    0.00%                                                                                                                                               | 3/1018 [00:11<1:05:06,  3.85s/it]
+             bicycle :   0.00%    0.00%    0.00%    0.00%                                                                                                                                               | 3/1018 [00:11<1:05:06,  3.85s/it]
+          motorcycle :   0.00%    0.00%    0.00%    0.00%
+               truck :   0.00%    0.00%    0.00%    0.00%
+                 bus :   0.00%    0.00%    0.00%    0.00%
+              person :   0.00%    0.00%    0.00%    0.00%
+           bicyclist :   0.00%    0.00%    0.00%    0.00%
+        motorcyclist :   0.00%    0.00%    0.00%    0.00%
+                road :   0.00%    0.00%    0.00%   31.08%
+             parking :   0.00%    0.00%    0.00%    0.00%
+            sidewalk :   0.00%    0.00%    0.00%   23.84%
+        other-ground :   0.00%    0.00%    0.00%    0.00%
+            building :   0.00%    0.00%    0.00%    9.80%
+               fence :   0.00%    0.00%    0.00%    4.01%
+          vegetation :  22.36%   53.65%   41.67%   49.24%
+               trunk :   0.00%    0.00%    0.00%    0.59%
+             terrain :   0.00%    0.00%    0.00%   15.24%
+                pole :   0.00%    0.00%    0.00%   10.10%
+        traffic-sign :   0.00%    0.00%    0.00%    0.00%
+PQ 1.2  PQ_dagger  2.8  SQ 2.8  RQ 2.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 2.0  SQ_st 4.9  RQ_st 3.8  |  mIoU 7.6
+Current val PQ is 1.2 while the best val PQ is 1.2
+Current val miou is 7.6
+epoch 2 iter    21, avg_loss: 4.7, semantic loss: 2.1, center loss: 0.6, offset loss: 0.3, instmap loss: 0.8, pix loss: nan
+Validation per class iou:
+car : 20.59%
+bicycle : 0.00%
+motorcycle : 0.00%
+truck : 0.00%
+bus : 0.00%
+person : 0.00%
+bicyclist : 0.00%
+motorcyclist : 0.00%
+road : 31.16%
+parking : 0.00%
+sidewalk : 23.93%
+other-ground : 0.00%
+building : 9.83%
+fence : 4.05%
+vegetation : 49.29%
+trunk : 0.59%
+terrain : 15.27%
+pole : 10.19%
+traffic-sign : 0.00%
+Current val miou is 8.7
+  0%|                                                                                                                                                                                                             | 0/2392 [00:00<?, ?it/s]
+****************************************
+timecost for a validation 34681.80859375
+  0%|                                                                                            | 1/2392 [00:15<10:01:05, 15.08s/it, sem_loss=2.1, center_loss=0.346, offset_loss=0.267, instmap_loss=0.67, cont_loss=9.29, avg_loss=4.31]
+  0%|                                                                                           | 2/2392 [00:19<5:40:24,  8.55s/it, sem_loss=2.16, center_loss=0.528, offset_loss=0.256, instmap_loss=0.676, cont_loss=9.27, avg_loss=4.55]
+  0%|                                                                                           | 3/2392 [00:21<3:55:06,  5.90s/it, sem_loss=2.13, center_loss=0.492, offset_loss=0.258, instmap_loss=0.723, cont_loss=9.31, avg_loss=4.53]
+  0%|▏                                                                                           | 4/2392 [00:24<3:04:53,  4.65s/it, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+  0%|▏                                                                                           | 4/2392 [00:24<3:04:53,  4.65s/it, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+  0%|▏                                                                                           | 4/2392 [00:24<3:04:53,  4.65s/it, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+  0%|▏                                                                                           | 4/2392 [00:24<3:04:53,  4.65s/it, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+  0%|▏                                                                                           | 4/2392 [00:24<3:04:53,  4.65s/it, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+  0%|▏                                                                                           | 4/2392 [00:24<3:04:53,  4.65s/it, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+  0%|▏                                                                                           | 4/2392 [00:24<3:04:53,  4.65s/it, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+  0%|▏                                                                                           | 4/2392 [00:24<3:04:53,  4.65s/it, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+  0%|▏                                                                                           | 4/2392 [00:24<3:04:53,  4.65s/it, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+  0%|▏                                                                                           | 4/2392 [00:24<3:04:53,  4.65s/it, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+  0%|▏                                                                                           | 4/2392 [00:24<3:04:53,  4.65s/it, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+  0%|▏                                                                                           | 4/2392 [00:24<3:04:53,  4.65s/it, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+  0%|▏                                                                                           | 4/2392 [00:24<3:04:53,  4.65s/it, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+  0%|▏                                                                                           | 4/2392 [00:24<3:04:53,  4.65s/it, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+  0%|▏                                                                                           | 4/2392 [00:24<3:04:53,  4.65s/it, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+  0%|▏                                                                                           | 4/2392 [00:24<3:04:53,  4.65s/it, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+  0%|▏                                                                                           | 4/2392 [00:24<3:04:53,  4.65s/it, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+  0%|▏                                                                                           | 4/2392 [00:24<3:04:53,  4.65s/it, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+  0%|▏                                                                                           | 4/2392 [00:24<3:04:53,  4.65s/it, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+time cost per epoch 80674.0078125
+Epoch 3 => Start Evaluation...
+  0%|▏                                                                                           | 4/2392 [00:24<3:04:53,  4.65s/it, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+  0%|▏                                                                                           | 4/2392 [00:24<3:04:53,  4.65s/it, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+  0%|▏                                                                                           | 4/2392 [00:24<3:04:53,  4.65s/it, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+  0%|▏                                                                                           | 4/2392 [00:24<3:04:53,  4.65s/it, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+  0%|▏                                                                                           | 4/2392 [00:24<3:04:53,  4.65s/it, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+****************************************
+timecost for a validation 34559.6953125
+terrain : 33.18%                                                                                 | 4/2392 [00:24<3:04:53,  4.65s/it, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 33.18%                                                                                 | 4/2392 [00:24<3:04:53,  4.65s/it, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 33.18%                                                                                 | 4/2392 [00:24<3:04:53,  4.65s/it, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 33.18%                                                                                 | 4/2392 [00:24<3:04:53,  4.65s/it, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 33.18%                                                                                 | 4/2392 [00:24<3:04:53,  4.65s/it, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 33.18%                                                                                 | 4/2392 [00:24<3:04:53,  4.65s/it, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 33.18%                                                                                 | 4/2392 [00:24<3:04:53,  4.65s/it, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 33.18%                                                                                 | 4/2392 [00:24<3:04:53,  4.65s/it, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 33.18%                                                                                 | 4/2392 [00:24<3:04:53,  4.65s/it, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 33.18%                                                                                 | 4/2392 [00:24<3:04:53,  4.65s/it, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 33.18%                                                                                 | 4/2392 [00:24<3:04:53,  4.65s/it, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 33.18%                                                                                 | 4/2392 [00:24<3:04:53,  4.65s/it, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 33.18%                                                                                 | 4/2392 [00:24<3:04:53,  4.65s/it, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 33.18%                                                                                 | 4/2392 [00:24<3:04:53,  4.65s/it, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 33.18%                                                                                 | 4/2392 [00:24<3:04:53,  4.65s/it, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 33.18%                                                                                 | 4/2392 [00:24<3:04:53,  4.65s/it, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 33.18%                                                                                 | 4/2392 [00:24<3:04:53,  4.65s/it, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 33.18%                                                                                 | 4/2392 [00:24<3:04:53,  4.65s/it, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 33.18%                                                                                 | 4/2392 [00:24<3:04:53,  4.65s/it, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 33.18%                                                                                 | 4/2392 [00:24<3:04:53,  4.65s/it, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 33.18%                                                                                 | 4/2392 [00:24<3:04:53,  4.65s/it, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 33.18%                                                                                 | 4/2392 [00:24<3:04:53,  4.65s/it, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 33.18%                                                                                 | 4/2392 [00:24<3:04:53,  4.65s/it, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 33.18%                                                                                 | 4/2392 [00:24<3:04:53,  4.65s/it, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+time cost per epoch 84836.78125
+Epoch 4 => Start Evaluation...
+terrain : 33.18%                                                                                 | 4/2392 [00:24<3:04:53,  4.65s/it, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+PQ 7.5  PQ_dagger  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 38.80%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 38.80%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+****************************************
+timecost for a validation 33277.9453125
+Epoch 4 => Start Training...
+terrain : 38.80%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 38.80%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 38.80%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 38.80%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 38.80%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 38.80%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 38.80%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 38.80%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 38.80%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 38.80%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 38.80%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 38.80%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 38.80%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 38.80%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 38.80%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 38.80%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 38.80%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 38.80%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 38.80%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 38.80%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 38.80%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 38.80%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+time cost per epoch 80396.3515625
+Epoch 5 => Start Evaluation...
+terrain : 38.80%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 38.80%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 38.80%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 16.12%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 16.12%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+****************************************
+timecost for a validation 25771.150390625
+Epoch 5 => Start Training...
+terrain : 16.12%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 16.12%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 16.12%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 16.12%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 16.12%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 16.12%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 16.12%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 16.12%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 16.12%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 16.12%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 16.12%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 16.12%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 16.12%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 16.12%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 16.12%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 16.12%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 16.12%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 16.12%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 16.12%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 16.12%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 16.12%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 16.12%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+time cost per epoch 84633.375
+Epoch 6 => Start Evaluation...
+terrain : 16.12%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 16.12%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 16.12%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 36.99%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 36.99%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+****************************************
+timecost for a validation 33888.33203125
+Epoch 6 => Start Training...
+terrain : 36.99%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 36.99%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 36.99%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 36.99%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 36.99%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 36.99%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 36.99%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 36.99%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 36.99%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 36.99%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 36.99%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 36.99%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 36.99%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 36.99%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 36.99%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 36.99%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 36.99%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 36.99%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 36.99%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 36.99%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 36.99%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 36.99%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+time cost per epoch 78117.953125
+Epoch 7 => Start Evaluation...
+terrain : 36.99%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 36.99%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 36.99%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 21.42%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 21.42%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+****************************************
+timecost for a validation 25038.72265625
+Epoch 7 => Start Training...
+terrain : 21.42%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 21.42%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 21.42%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 21.42%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 21.42%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 21.42%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 21.42%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 21.42%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 21.42%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 21.42%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 21.42%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 21.42%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 21.42%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 21.42%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 21.42%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 21.42%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 21.42%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 21.42%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 21.42%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 21.42%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 21.42%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+time cost per epoch 76627.8125
+Epoch 8 => Start Evaluation...
+terrain : 21.42%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 21.42%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 21.42%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 21.42%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 34.58%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 34.58%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+****************************************
+timecost for a validation 36233.01171875
+Epoch 8 => Start Training...
+terrain : 34.58%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 34.58%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 34.58%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 34.58%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 34.58%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 34.58%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 34.58%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 34.58%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 34.58%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 34.58%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 34.58%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 34.58%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 34.58%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 34.58%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 34.58%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 34.58%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 34.58%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 34.58%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 34.58%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 34.58%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 34.58%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+time cost per epoch 83614.2109375
+Epoch 9 => Start Evaluation...
+terrain : 34.58%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 34.58%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 34.58%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 34.58%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 38.98%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 38.98%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+****************************************
+timecost for a validation 20701.73046875
+Epoch 9 => Start Training...
+terrain : 38.98%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 38.98%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 38.98%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 38.98%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 38.98%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 38.98%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 38.98%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 38.98%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 38.98%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 38.98%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 38.98%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 38.98%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 38.98%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 38.98%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 38.98%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 38.98%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 38.98%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 38.98%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 38.98%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 38.98%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 38.98%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 38.98%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+time cost per epoch 85329.1953125
+Epoch 10 => Start Evaluation...
+terrain : 38.98%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 38.98%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 38.98%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 36.71%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 36.71%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+****************************************
+timecost for a validation 21358.623046875
+Epoch 10 => Start Training...
+terrain : 36.71%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 36.71%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 36.71%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 36.71%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 36.71%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 36.71%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 36.71%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 36.71%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 36.71%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 36.71%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 36.71%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 36.71%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 36.71%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 36.71%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 36.71%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 36.71%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 36.71%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 36.71%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 36.71%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]
+terrain : 36.71%r  11.8  SQ 11.8  RQ 13.2  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 13.0  SQ_st 20.3  RQ_st 22.7  |  mIoU 13.6t, sem_loss=2.22, center_loss=0.55, offset_loss=0.333, instmap_loss=0.809, cont_loss=9.29, avg_loss=4.84]

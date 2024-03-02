@@ -1,0 +1,313 @@
+
+[480 360  32]
+Using MSE for heatmap regression, weight: 100
+Using L1 for offset regression, weight: 10
+[PANOPTIC EVAL] IGNORE:  [ 0 20]
+[PANOPTIC EVAL] INCLUDE:  [ 1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19]
+
+
+
+  0%|▌                                                                                                                                                                                                  | 3/1018 [00:13<1:18:52,  4.66s/it]
+timecost for a validation 24310.671875
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  1%|▊                                                                                             | 21/2392 [02:43<5:06:58,  7.77s/it, sem_loss=2.92, center_loss=4.72, offset_loss=0.653, instmap_loss=2.62, cont_loss=9.61, avg_loss=12]
+  0%|                                                                                                                                                                                                             | 0/1018 [00:00<?, ?it/s]
+
+
+
+  0%|▌                                                                                                                                                                                                  | 3/1018 [00:15<1:24:59,  5.02s/it]
+  0%|                                                                                                                                                                                                             | 0/2392 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  1%|▊                                                                                            | 21/2392 [01:11<1:55:04,  2.91s/it, sem_loss=2.19, center_loss=0.614, offset_loss=0.297, instmap_loss=0.954, cont_loss=9.28, avg_loss=5]
+  1%|▊                                                                                            | 21/2392 [01:18<2:27:46,  3.74s/it, sem_loss=2.19, center_loss=0.614, offset_loss=0.297, instmap_loss=0.954, cont_loss=9.28, avg_loss=5]
+
+
+
+  0%|▌                                                                                                                                                                                                  | 3/1018 [00:12<1:11:29,  4.23s/it]
+  0%|                                                                                                                                                                                                             | 0/2392 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  1%|▊                                                                                         | 21/2392 [01:21<2:33:45,  3.89s/it, sem_loss=2.07, center_loss=0.605, offset_loss=0.347, instmap_loss=0.953, cont_loss=9.24, avg_loss=4.91]
+  0%|                                                                                                                                                                                                             | 0/1018 [00:00<?, ?it/s]
+
+
+
+  0%|▌                                                                                                                                                                                                  | 3/1018 [00:13<1:13:18,  4.33s/it]
+timecost for a validation 33522.7578125
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  1%|▊                                                                                          | 21/2392 [01:22<2:36:06,  3.95s/it, sem_loss=1.9, center_loss=0.376, offset_loss=0.223, instmap_loss=0.621, cont_loss=9.23, avg_loss=4.04]
+  0%|                                                                                                                                                                                                             | 0/1018 [00:00<?, ?it/s]
+
+
+
+
+  0%|▌                                                                                                                                                                                                  | 3/1018 [00:13<1:14:53,  4.43s/it]
+timecost for a validation 35152.65234375
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  1%|▊                                                                                          | 21/2392 [01:16<2:14:50,  3.41s/it, sem_loss=1.81, center_loss=0.448, offset_loss=0.287, instmap_loss=0.71, cont_loss=9.24, avg_loss=4.18]
+  1%|▊                                                                                          | 21/2392 [01:24<2:38:28,  4.01s/it, sem_loss=1.81, center_loss=0.448, offset_loss=0.287, instmap_loss=0.71, cont_loss=9.24, avg_loss=4.18]
+
+
+
+  0%|▌                                                                                                                                                                                                  | 3/1018 [00:11<1:03:32,  3.76s/it]
+timecost for a validation 21942.95703125
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  1%|▊                                                                                          | 21/2392 [01:24<2:38:56,  4.02s/it, sem_loss=1.89, center_loss=0.402, offset_loss=0.291, instmap_loss=0.694, cont_loss=9.24, avg_loss=4.2]
+  0%|                                                                                                                                                                                                             | 0/1018 [00:00<?, ?it/s]
+
+
+  0%|▌                                                                                                                                                                                                  | 3/1018 [00:11<1:07:01,  3.96s/it]
+  0%|                                                                                                                                                                                                             | 0/2392 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  1%|▊                                                                                         | 21/2392 [01:21<2:34:15,  3.90s/it, sem_loss=1.71, center_loss=0.415, offset_loss=0.271, instmap_loss=0.631, cont_loss=9.25, avg_loss=3.95]
+  0%|                                                                                                                                                                                                             | 0/1018 [00:00<?, ?it/s]
+
+
+
+  0%|▌                                                                                                                                                                                                  | 3/1018 [00:11<1:06:13,  3.91s/it]
+timecost for a validation 21184.71875
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  1%|▊                                                                                          | 21/2392 [01:19<2:29:46,  3.79s/it, sem_loss=1.68, center_loss=0.384, offset_loss=0.298, instmap_loss=0.518, cont_loss=9.24, avg_loss=3.8]
+  0%|                                                                                                                                                                                                             | 0/1018 [00:00<?, ?it/s]
+
+
+
+
+  0%|▌                                                                                                                                                                                                  | 3/1018 [00:12<1:10:59,  4.20s/it]
+timecost for a validation 33262.4296875
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  1%|▊                                                                                         | 21/2392 [01:14<2:01:08,  3.07s/it, sem_loss=1.63, center_loss=0.421, offset_loss=0.329, instmap_loss=0.544, cont_loss=9.24, avg_loss=3.85]
+  1%|▊                                                                                         | 21/2392 [01:23<2:37:30,  3.99s/it, sem_loss=1.63, center_loss=0.421, offset_loss=0.329, instmap_loss=0.544, cont_loss=9.24, avg_loss=3.85]
+
+
+
+  0%|▌                                                                                                                                                                                                  | 3/1018 [00:12<1:08:06,  4.03s/it]
+  0%|                                                                                                                                                                                                             | 0/2392 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  1%|▊                                                                                           | 21/2392 [01:18<2:12:08,  3.34s/it, sem_loss=1.6, center_loss=0.41, offset_loss=0.292, instmap_loss=0.527, cont_loss=9.23, avg_loss=3.75]
+  1%|▊                                                                                           | 21/2392 [01:23<2:37:26,  3.98s/it, sem_loss=1.6, center_loss=0.41, offset_loss=0.292, instmap_loss=0.527, cont_loss=9.23, avg_loss=3.75]
+
+
+
+  0%|▌                                                                                                                                                                                                  | 3/1018 [00:13<1:15:36,  4.47s/it]
+  0%|                                                                                                                                                                                                             | 0/2392 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

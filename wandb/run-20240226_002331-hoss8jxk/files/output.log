@@ -1,0 +1,14 @@
+
+[480 360  32]
+Traceback (most recent call last):
+  File "train_distributed.py", line 616, in <module>
+    main()
+  File "train_distributed.py", line 153, in main
+    pretrained_model = torch.load(model_load_path, map_location=torch.device('cpu'))
+  File "/opt/conda/lib/python3.8/site-packages/torch/serialization.py", line 791, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/opt/conda/lib/python3.8/site-packages/torch/serialization.py", line 271, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/opt/conda/lib/python3.8/site-packages/torch/serialization.py", line 252, in __init__
+    super().__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: '/visionai-postech/eccv24/nusc_ckpts/nusc_tmp.pt'

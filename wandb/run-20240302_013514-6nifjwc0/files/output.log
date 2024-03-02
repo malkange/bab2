@@ -1,0 +1,176 @@
+
+[480 360  32]
+Using MSE for heatmap regression, weight: 100
+Using L1 for offset regression, weight: 10
+[PANOPTIC EVAL] IGNORE:  [ 0 20]
+[PANOPTIC EVAL] INCLUDE:  [ 1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19]
+restart from 0 epoch
+Epoch 0 => Start Evaluation...
+epoch: 0   lr: 0.00400
+
+
+
+  1%|█▏                                                                                                                                                                                                   | 6/1018 [00:17<26:09,  1.55s/it]
+  1%|█▏                                                                                                                                                                                                   | 6/1018 [00:20<58:49,  3.49s/it]
+Validation per class PQ, SQ, RQ and IoU:
+                 car :   0.00%    0.00%    0.00%    0.00%
+             bicycle :   0.00%    0.00%    0.00%    0.00%
+          motorcycle :   0.00%    0.00%    0.00%    0.00%
+               truck :   0.00%    0.00%    0.00%    0.00%
+                 bus :   0.00%    0.00%    0.00%    0.00%
+              person :   0.00%    0.00%    0.00%    0.00%
+           bicyclist :   0.00%    0.00%    0.00%    0.00%
+        motorcyclist :   0.00%    0.00%    0.00%    0.00%
+                road :   0.00%    0.00%    0.00%    0.02%
+             parking :   0.00%    0.00%    0.00%    0.96%
+            sidewalk :   0.00%    0.00%    0.00%    0.14%
+        other-ground :   0.00%    0.00%    0.00%    0.93%
+            building :   0.00%    0.00%    0.00%    0.37%
+               fence :   0.00%    0.00%    0.00%    0.00%
+          vegetation :   0.00%    0.00%    0.00%    0.18%
+               trunk :   0.00%    0.00%    0.00%    2.16%
+             terrain :   0.00%    0.00%    0.00%    0.21%
+                pole :   0.00%    0.00%    0.00%    0.18%
+        traffic-sign :   0.00%    0.00%    0.00%    0.05%
+PQ 0.0  PQ_dagger  0.0  SQ 0.0  RQ 0.0  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 0.0  SQ_st 0.0  RQ_st 0.0  |  mIoU 0.3
+Current val PQ is 0.0 while the best val PQ is 0.0
+Current val miou is 0.3
+Validation per class iou:
+car : 2.90%
+bicycle : 0.00%
+motorcycle : 0.00%
+truck : 0.00%
+bus : 0.00%
+person : 0.00%
+bicyclist : 0.00%
+motorcyclist : 0.00%
+road : 0.02%
+parking : 0.99%
+sidewalk : 0.14%
+other-ground : 0.94%
+building : 0.38%
+fence : 0.00%
+vegetation : 0.18%
+trunk : 2.16%
+terrain : 0.21%
+pole : 0.18%
+traffic-sign : 0.05%
+Current val miou is 0.4
+Epoch 0 => Start Training...
+
+
+
+
+
+
+  0%|▎                                                                                            | 6/1913 [02:26<12:57:02, 24.45s/it, sem_loss=3.7, center_loss=32.8, offset_loss=0.729, instmap_loss=3.33, cont_loss=13.9, avg_loss=41.9]
+epoch: 1   lr: 0.00400
+  0%|                                                                                                                                                                                                             | 0/1018 [00:00<?, ?it/s]
+restart from 1 epoch
+
+
+
+  1%|█▏                                                                                                                                                                                                   | 6/1018 [00:09<17:25,  1.03s/it]
+  1%|█▏                                                                                                                                                                                                   | 6/1018 [00:12<35:39,  2.11s/it]
+Validation per class PQ, SQ, RQ and IoU:
+                 car :   0.00%    0.00%    0.00%    0.00%
+             bicycle :   0.00%    0.00%    0.00%    0.00%
+          motorcycle :   0.00%    0.00%    0.00%    0.00%
+               truck :   0.00%    0.00%    0.00%    0.00%
+                 bus :   0.00%    0.00%    0.00%    0.00%
+              person :   0.00%    0.00%    0.00%    0.00%
+           bicyclist :   0.00%    0.00%    0.00%    0.00%
+        motorcyclist :   0.00%    0.00%    0.00%    0.00%
+                road :   0.00%    0.00%    0.00%   23.11%
+             parking :   0.00%    0.00%    0.00%    0.00%
+            sidewalk :   0.00%    0.00%    0.00%    5.92%
+        other-ground :   0.00%    0.00%    0.00%    0.00%
+            building :   0.00%    0.00%    0.00%    0.87%
+               fence :   0.00%    0.00%    0.00%    0.13%
+          vegetation :   0.00%    0.00%    0.00%   33.84%
+               trunk :   0.00%    0.00%    0.00%    0.02%
+             terrain :   0.00%    0.00%    0.00%    0.39%
+                pole :   0.00%    0.00%    0.00%    0.00%
+        traffic-sign :   0.00%    0.00%    0.00%    0.00%
+PQ 0.0  PQ_dagger  0.0  SQ 0.0  RQ 0.0  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 0.0  SQ_st 0.0  RQ_st 0.0  |  mIoU 3.4
+Current val PQ is 0.0 while the best val PQ is 0.0
+Current val miou is 3.4
+epoch 1 iter     6, avg_loss: 41.9, semantic loss: 3.7, center loss: 32.8, offset loss: 0.7, instmap loss: 3.3, pix loss: nan
+Validation per class iou:
+car : 0.72%
+bicycle : 0.01%
+motorcycle : 0.00%
+truck : 0.00%
+bus : 0.00%
+person : 0.00%
+bicyclist : 0.00%
+motorcyclist : 0.00%
+road : 23.11%
+parking : 0.00%
+sidewalk : 5.92%
+other-ground : 0.00%
+building : 0.87%
+fence : 0.13%
+vegetation : 33.84%
+trunk : 0.02%
+terrain : 0.39%
+pole : 0.00%
+traffic-sign : 0.00%
+Current val miou is 3.4
+Epoch 1 => Start Training...
+
+
+
+
+
+
+  0%|▎                                                                                              | 6/1913 [00:43<3:50:49,  7.26s/it, sem_loss=2.57, center_loss=3.35, offset_loss=0.364, instmap_loss=1.39, cont_loss=11, avg_loss=8.85]
+epoch: 2   lr: 0.00400
+  0%|                                                                                                                                                                                                             | 0/1018 [00:00<?, ?it/s]
+restart from 2 epoch
+  0%|▍                                                                                                                                                                                                    | 2/1018 [00:07<52:33,  3.10s/it]
+  0%|▉                                                                                                                                                                                                    | 5/1018 [00:10<22:40,  1.34s/it]
+  1%|█▏                                                                                                                                                                                                   | 6/1018 [00:10<18:59,  1.13s/it]
+  1%|█▏                                                                                                                                                                                                   | 6/1018 [00:15<44:28,  2.64s/it]
+  1%|█▏                                                                                                                                                                                                   | 6/1018 [00:15<44:28,  2.64s/it]
+               truck :   0.00%    0.00%    0.00%    0.00%                                                                                                                                                 | 6/1018 [00:15<44:28,  2.64s/it]
+               truck :   0.00%    0.00%    0.00%    0.00%                                                                                                                                                 | 6/1018 [00:15<44:28,  2.64s/it]
+                 bus :   0.00%    0.00%    0.00%    0.00%
+              person :   0.00%    0.00%    0.00%    0.00%
+           bicyclist :   0.00%    0.00%    0.00%    0.00%
+        motorcyclist :   0.00%    0.00%    0.00%    0.00%
+                road :   0.00%    0.00%    0.00%   29.84%
+             parking :   0.00%    0.00%    0.00%    0.05%
+            sidewalk :   0.00%    0.00%    0.00%    2.59%
+        other-ground :   0.00%    0.00%    0.00%    0.00%
+            building :   0.00%    0.00%    0.00%    1.25%
+               fence :   0.00%    0.00%    0.00%    0.72%
+          vegetation :   0.00%    0.00%    0.00%   40.23%
+               trunk :   0.00%    0.00%    0.00%    1.52%
+             terrain :   0.00%    0.00%    0.00%   10.35%
+                pole :   0.00%    0.00%    0.00%    0.02%
+        traffic-sign :   0.00%    0.00%    0.00%    0.00%
+PQ 0.0  PQ_dagger  0.0  SQ 0.0  RQ 0.0  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 0.0  SQ_st 0.0  RQ_st 0.0  |  mIoU 4.6
+Current val PQ is 0.0 while the best val PQ is 0.0
+Current val miou is 4.6
+epoch 2 iter     6, avg_loss: 8.9, semantic loss: 2.6, center loss: 3.4, offset loss: 0.4, instmap loss: 1.4, pix loss: nan
+Validation per class iou:
+car : 0.06%
+bicycle : 0.14%
+motorcycle : 0.00%
+truck : 0.00%
+bus : 0.00%
+person : 0.02%
+bicyclist : 0.00%
+motorcyclist : 0.00%
+road : 29.85%
+parking : 0.05%
+sidewalk : 2.59%
+other-ground : 0.00%
+building : 1.26%
+fence : 0.72%
+vegetation : 40.28%
+trunk : 1.52%
+terrain : 10.35%
+pole : 0.02%
+traffic-sign : 0.00%

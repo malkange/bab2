@@ -1,0 +1,191 @@
+2024-03-02 01:29:38,273 INFO    StreamThr :3538583 [internal.py:wandb_internal():86] W&B internal server running at pid: 3538583, started at: 2024-03-02 01:29:38.273387
+2024-03-02 01:29:38,275 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: status
+2024-03-02 01:29:38,279 INFO    WriterThread:3538583 [datastore.py:open_for_write():87] open: /home/poscoict/Desktop/samseg3d_final_trial/wandb/run-20240302_012938-vzbuhlit/run-vzbuhlit.wandb
+2024-03-02 01:29:38,279 DEBUG   SenderThread:3538583 [sender.py:send():382] send: header
+2024-03-02 01:29:38,280 DEBUG   SenderThread:3538583 [sender.py:send():382] send: run
+2024-03-02 01:29:38,955 INFO    SenderThread:3538583 [dir_watcher.py:__init__():211] watching files in: /home/poscoict/Desktop/samseg3d_final_trial/wandb/run-20240302_012938-vzbuhlit/files
+2024-03-02 01:29:38,955 INFO    SenderThread:3538583 [sender.py:_start_run_threads():1136] run started: vzbuhlit with start time 1709310578.272937
+2024-03-02 01:29:38,962 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: check_version
+2024-03-02 01:29:38,962 DEBUG   SenderThread:3538583 [sender.py:send_request():409] send_request: check_version
+2024-03-02 01:29:39,018 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: run_start
+2024-03-02 01:29:39,202 DEBUG   HandlerThread:3538583 [system_info.py:__init__():27] System info init
+2024-03-02 01:29:39,202 DEBUG   HandlerThread:3538583 [system_info.py:__init__():42] System info init done
+2024-03-02 01:29:39,202 INFO    HandlerThread:3538583 [system_monitor.py:start():194] Starting system monitor
+2024-03-02 01:29:39,202 INFO    SystemMonitor:3538583 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-03-02 01:29:39,203 INFO    HandlerThread:3538583 [system_monitor.py:probe():214] Collecting system info
+2024-03-02 01:29:39,203 INFO    SystemMonitor:3538583 [interfaces.py:start():190] Started cpu monitoring
+2024-03-02 01:29:39,204 INFO    SystemMonitor:3538583 [interfaces.py:start():190] Started disk monitoring
+2024-03-02 01:29:39,204 INFO    SystemMonitor:3538583 [interfaces.py:start():190] Started gpu monitoring
+2024-03-02 01:29:39,205 INFO    SystemMonitor:3538583 [interfaces.py:start():190] Started memory monitoring
+2024-03-02 01:29:39,205 INFO    SystemMonitor:3538583 [interfaces.py:start():190] Started network monitoring
+2024-03-02 01:29:39,268 DEBUG   HandlerThread:3538583 [system_info.py:probe():151] Probing system
+2024-03-02 01:29:39,274 DEBUG   HandlerThread:3538583 [gitlib.py:_init_repo():56] git repository is invalid
+2024-03-02 01:29:39,274 DEBUG   HandlerThread:3538583 [system_info.py:probe():199] Probing system done
+2024-03-02 01:29:39,274 DEBUG   HandlerThread:3538583 [system_monitor.py:probe():223] {'os': 'Linux-4.18.0-348.23.1.el8_5.x86_64-x86_64-with-glibc2.17', 'python': '3.8.16', 'heartbeatAt': '2024-03-01T16:29:39.268306', 'startedAt': '2024-03-01T16:29:38.264549', 'docker': None, 'cuda': None, 'args': ('-c', 'configs/pa_po_kitti_trainval.yaml', '-l', '/visionai-postech/eccv24/kitti_logs', '-w', 'kitti_final', '-n', 'kitti_full_cont_not_maskattn'), 'state': 'running', 'program': 'train_distributed.py', 'codePathLocal': 'train_distributed.py', 'codePath': 'train_distributed.py', 'host': 'visionai-postech2', 'username': 'poscoict', 'executable': '/opt/conda/bin/python', 'cpu_count': 48, 'cpu_count_logical': 96, 'cpu_freq': {'current': 3927.775156250001, 'min': 4000.0, 'max': 4000.0}, 'cpu_freq_per_core': [{'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 3600.001, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 3600.0, 'min': 4000.0, 'max': 4000.0}, {'current': 3660.386, 'min': 4000.0, 'max': 4000.0}, {'current': 3599.999, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 3660.936, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 3387.122, 'min': 4000.0, 'max': 4000.0}, {'current': 3618.849, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 3486.002, 'min': 4000.0, 'max': 4000.0}, {'current': 3427.695, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 3665.736, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 3454.185, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 3599.999, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 3599.999, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 3384.933, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 3362.691, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 3599.999, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 3671.198, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 3355.808, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 3678.958, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}], 'disk': {'/': {'total': 2699.5527381896973, 'used': 672.6257133483887}}, 'gpu': 'NVIDIA A100 80GB PCIe', 'gpu_count': 2, 'gpu_devices': [{'name': 'NVIDIA A100 80GB PCIe', 'memory_total': 85899345920}, {'name': 'NVIDIA A100 80GB PCIe', 'memory_total': 85899345920}], 'memory': {'total': 1006.8523902893066}}
+2024-03-02 01:29:39,274 INFO    HandlerThread:3538583 [system_monitor.py:probe():224] Finished collecting system info
+2024-03-02 01:29:39,274 INFO    HandlerThread:3538583 [system_monitor.py:probe():227] Publishing system info
+2024-03-02 01:29:39,274 DEBUG   HandlerThread:3538583 [system_info.py:_save_conda():208] Saving list of conda packages installed into the current environment
+2024-03-02 01:29:39,956 INFO    Thread-12 :3538583 [dir_watcher.py:_on_file_created():271] file/dir created: /home/poscoict/Desktop/samseg3d_final_trial/wandb/run-20240302_012938-vzbuhlit/files/conda-environment.yaml
+2024-03-02 01:29:42,713 DEBUG   HandlerThread:3538583 [system_info.py:_save_conda():220] Saving conda packages done
+2024-03-02 01:29:42,714 INFO    HandlerThread:3538583 [system_monitor.py:probe():229] Finished publishing system info
+2024-03-02 01:29:42,719 DEBUG   SenderThread:3538583 [sender.py:send():382] send: files
+2024-03-02 01:29:42,719 INFO    SenderThread:3538583 [sender.py:_save_file():1403] saving file wandb-metadata.json with policy now
+2024-03-02 01:29:42,724 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: python_packages
+2024-03-02 01:29:42,725 DEBUG   SenderThread:3538583 [sender.py:send_request():409] send_request: python_packages
+2024-03-02 01:29:42,725 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-02 01:29:42,726 DEBUG   SenderThread:3538583 [sender.py:send_request():409] send_request: stop_status
+2024-03-02 01:29:42,730 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-02 01:29:42,956 INFO    Thread-12 :3538583 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final_trial/wandb/run-20240302_012938-vzbuhlit/files/conda-environment.yaml
+2024-03-02 01:29:42,956 INFO    Thread-12 :3538583 [dir_watcher.py:_on_file_created():271] file/dir created: /home/poscoict/Desktop/samseg3d_final_trial/wandb/run-20240302_012938-vzbuhlit/files/requirements.txt
+2024-03-02 01:29:42,957 INFO    Thread-12 :3538583 [dir_watcher.py:_on_file_created():271] file/dir created: /home/poscoict/Desktop/samseg3d_final_trial/wandb/run-20240302_012938-vzbuhlit/files/wandb-metadata.json
+2024-03-02 01:29:43,058 DEBUG   SenderThread:3538583 [sender.py:send():382] send: telemetry
+2024-03-02 01:29:43,710 INFO    wandb-upload_0:3538583 [upload_job.py:push():131] Uploaded file /tmp/tmpoehwqt4zwandb/0gefdagf-wandb-metadata.json
+2024-03-02 01:29:43,956 INFO    Thread-12 :3538583 [dir_watcher.py:_on_file_created():271] file/dir created: /home/poscoict/Desktop/samseg3d_final_trial/wandb/run-20240302_012938-vzbuhlit/files/output.log
+2024-03-02 01:29:44,059 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 01:29:45,957 INFO    Thread-12 :3538583 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final_trial/wandb/run-20240302_012938-vzbuhlit/files/output.log
+2024-03-02 01:29:49,645 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 01:29:49,958 INFO    Thread-12 :3538583 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final_trial/wandb/run-20240302_012938-vzbuhlit/files/output.log
+2024-03-02 01:29:53,960 INFO    Thread-12 :3538583 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final_trial/wandb/run-20240302_012938-vzbuhlit/files/output.log
+2024-03-02 01:29:55,105 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 01:29:57,726 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-02 01:29:57,726 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-02 01:29:57,726 DEBUG   SenderThread:3538583 [sender.py:send_request():409] send_request: stop_status
+2024-03-02 01:30:01,061 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 01:30:06,062 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 01:30:11,067 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 01:30:11,966 INFO    Thread-12 :3538583 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final_trial/wandb/run-20240302_012938-vzbuhlit/files/config.yaml
+2024-03-02 01:30:12,725 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-02 01:30:12,726 DEBUG   SenderThread:3538583 [sender.py:send_request():409] send_request: stop_status
+2024-03-02 01:30:12,766 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-02 01:30:17,061 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 01:30:22,062 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 01:30:27,063 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 01:30:29,171 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-02 01:30:29,171 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-02 01:30:29,172 DEBUG   SenderThread:3538583 [sender.py:send_request():409] send_request: stop_status
+2024-03-02 01:30:32,507 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 01:30:37,508 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 01:30:39,205 DEBUG   SystemMonitor:3538583 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-03-02 01:30:39,207 DEBUG   SenderThread:3538583 [sender.py:send():382] send: stats
+2024-03-02 01:30:43,209 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 01:30:48,210 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 01:30:48,369 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-02 01:30:48,369 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-02 01:30:48,370 DEBUG   SenderThread:3538583 [sender.py:send_request():409] send_request: stop_status
+2024-03-02 01:30:53,621 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 01:30:58,622 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 01:31:03,623 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 01:31:05,420 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-02 01:31:05,420 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-02 01:31:05,420 DEBUG   SenderThread:3538583 [sender.py:send_request():409] send_request: stop_status
+2024-03-02 01:31:08,746 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 01:31:09,209 DEBUG   SenderThread:3538583 [sender.py:send():382] send: stats
+2024-03-02 01:31:14,210 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 01:31:14,558 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-02 01:31:19,211 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 01:31:24,212 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 01:31:27,127 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-02 01:31:27,127 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-02 01:31:27,128 DEBUG   SenderThread:3538583 [sender.py:send_request():409] send_request: stop_status
+2024-03-02 01:31:29,424 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 01:31:34,425 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 01:31:39,210 DEBUG   SenderThread:3538583 [sender.py:send():382] send: stats
+2024-03-02 01:31:40,211 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 01:31:45,212 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 01:31:50,213 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 01:31:51,108 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-02 01:31:51,149 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-02 01:31:55,214 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 01:31:58,042 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-02 01:32:00,215 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 01:32:03,736 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-02 01:32:03,998 INFO    Thread-12 :3538583 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final_trial/wandb/run-20240302_012938-vzbuhlit/files/output.log
+2024-03-02 01:32:05,925 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 01:32:06,110 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-02 01:32:09,212 DEBUG   SenderThread:3538583 [sender.py:send():382] send: stats
+2024-03-02 01:32:10,000 INFO    Thread-12 :3538583 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final_trial/wandb/run-20240302_012938-vzbuhlit/files/output.log
+2024-03-02 01:32:11,722 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 01:32:11,739 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-02 01:32:12,001 INFO    Thread-12 :3538583 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final_trial/wandb/run-20240302_012938-vzbuhlit/files/output.log
+2024-03-02 01:32:16,002 INFO    Thread-12 :3538583 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final_trial/wandb/run-20240302_012938-vzbuhlit/files/output.log
+2024-03-02 01:32:16,781 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-02 01:32:17,622 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 01:32:18,003 INFO    Thread-12 :3538583 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final_trial/wandb/run-20240302_012938-vzbuhlit/files/output.log
+2024-03-02 01:32:21,110 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-02 01:32:22,004 INFO    Thread-12 :3538583 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final_trial/wandb/run-20240302_012938-vzbuhlit/files/output.log
+2024-03-02 01:32:23,402 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 01:32:24,005 INFO    Thread-12 :3538583 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final_trial/wandb/run-20240302_012938-vzbuhlit/files/output.log
+2024-03-02 01:32:26,005 INFO    Thread-12 :3538583 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final_trial/wandb/run-20240302_012938-vzbuhlit/files/output.log
+2024-03-02 01:32:26,783 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-02 01:32:28,899 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 01:32:30,007 INFO    Thread-12 :3538583 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final_trial/wandb/run-20240302_012938-vzbuhlit/files/output.log
+2024-03-02 01:32:32,007 INFO    Thread-12 :3538583 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final_trial/wandb/run-20240302_012938-vzbuhlit/files/output.log
+2024-03-02 01:32:32,104 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-02 01:32:34,068 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 01:32:36,009 INFO    Thread-12 :3538583 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final_trial/wandb/run-20240302_012938-vzbuhlit/files/output.log
+2024-03-02 01:32:36,110 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-02 01:32:39,214 DEBUG   SenderThread:3538583 [sender.py:send():382] send: stats
+2024-03-02 01:32:39,214 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 01:32:40,010 INFO    Thread-12 :3538583 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final_trial/wandb/run-20240302_012938-vzbuhlit/files/output.log
+2024-03-02 01:32:42,011 INFO    Thread-12 :3538583 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final_trial/wandb/run-20240302_012938-vzbuhlit/files/output.log
+2024-03-02 01:32:42,106 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-02 01:32:44,012 INFO    Thread-12 :3538583 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final_trial/wandb/run-20240302_012938-vzbuhlit/files/output.log
+2024-03-02 01:32:44,326 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 01:32:46,012 INFO    Thread-12 :3538583 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final_trial/wandb/run-20240302_012938-vzbuhlit/files/output.log
+2024-03-02 01:32:47,107 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-02 01:32:49,654 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 01:32:50,014 INFO    Thread-12 :3538583 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final_trial/wandb/run-20240302_012938-vzbuhlit/files/output.log
+2024-03-02 01:32:51,110 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-02 01:32:52,014 INFO    Thread-12 :3538583 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final_trial/wandb/run-20240302_012938-vzbuhlit/files/output.log
+2024-03-02 01:32:54,015 INFO    Thread-12 :3538583 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final_trial/wandb/run-20240302_012938-vzbuhlit/files/output.log
+2024-03-02 01:32:55,325 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 01:32:56,016 INFO    Thread-12 :3538583 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final_trial/wandb/run-20240302_012938-vzbuhlit/files/output.log
+2024-03-02 01:32:57,109 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-02 01:32:58,016 INFO    Thread-12 :3538583 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final_trial/wandb/run-20240302_012938-vzbuhlit/files/output.log
+2024-03-02 01:33:00,815 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 01:33:02,018 INFO    Thread-12 :3538583 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final_trial/wandb/run-20240302_012938-vzbuhlit/files/output.log
+2024-03-02 01:33:02,150 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-02 01:33:05,932 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 01:33:06,019 INFO    Thread-12 :3538583 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final_trial/wandb/run-20240302_012938-vzbuhlit/files/output.log
+2024-03-02 01:33:06,110 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-02 01:33:08,020 INFO    Thread-12 :3538583 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final_trial/wandb/run-20240302_012938-vzbuhlit/files/output.log
+2024-03-02 01:33:09,215 DEBUG   SenderThread:3538583 [sender.py:send():382] send: stats
+2024-03-02 01:33:11,158 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-02 01:33:11,216 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 01:33:12,021 INFO    Thread-12 :3538583 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final_trial/wandb/run-20240302_012938-vzbuhlit/files/output.log
+2024-03-02 01:33:14,022 INFO    Thread-12 :3538583 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final_trial/wandb/run-20240302_012938-vzbuhlit/files/output.log
+2024-03-02 01:33:16,023 INFO    Thread-12 :3538583 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final_trial/wandb/run-20240302_012938-vzbuhlit/files/output.log
+2024-03-02 01:33:16,163 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-02 01:33:16,763 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 01:33:20,024 INFO    Thread-12 :3538583 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final_trial/wandb/run-20240302_012938-vzbuhlit/files/output.log
+2024-03-02 01:33:21,110 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-02 01:33:22,025 INFO    Thread-12 :3538583 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final_trial/wandb/run-20240302_012938-vzbuhlit/files/output.log
+2024-03-02 01:33:22,544 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 01:33:24,026 INFO    Thread-12 :3538583 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final_trial/wandb/run-20240302_012938-vzbuhlit/files/output.log
+2024-03-02 01:33:26,027 INFO    Thread-12 :3538583 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final_trial/wandb/run-20240302_012938-vzbuhlit/files/output.log
+2024-03-02 01:33:26,193 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-02 01:33:27,570 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 01:33:28,027 INFO    Thread-12 :3538583 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final_trial/wandb/run-20240302_012938-vzbuhlit/files/output.log
+2024-03-02 01:33:31,194 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-02 01:33:32,029 INFO    Thread-12 :3538583 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final_trial/wandb/run-20240302_012938-vzbuhlit/files/output.log
+2024-03-02 01:33:33,259 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 01:33:36,030 INFO    Thread-12 :3538583 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final_trial/wandb/run-20240302_012938-vzbuhlit/files/output.log
+2024-03-02 01:33:36,110 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-02 01:33:38,031 INFO    Thread-12 :3538583 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final_trial/wandb/run-20240302_012938-vzbuhlit/files/output.log
+2024-03-02 01:33:39,168 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 01:33:39,216 DEBUG   SenderThread:3538583 [sender.py:send():382] send: stats
+2024-03-02 01:33:40,032 INFO    Thread-12 :3538583 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final_trial/wandb/run-20240302_012938-vzbuhlit/files/output.log
+2024-03-02 01:33:41,209 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-02 01:33:44,033 INFO    Thread-12 :3538583 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final_trial/wandb/run-20240302_012938-vzbuhlit/files/output.log
+2024-03-02 01:33:44,378 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 01:33:46,034 INFO    Thread-12 :3538583 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final_trial/wandb/run-20240302_012938-vzbuhlit/files/output.log
+2024-03-02 01:33:46,210 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-02 01:33:48,035 INFO    Thread-12 :3538583 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final_trial/wandb/run-20240302_012938-vzbuhlit/files/output.log
+2024-03-02 01:33:50,025 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 01:33:50,035 INFO    Thread-12 :3538583 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final_trial/wandb/run-20240302_012938-vzbuhlit/files/output.log
+2024-03-02 01:33:52,036 INFO    Thread-12 :3538583 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/samseg3d_final_trial/wandb/run-20240302_012938-vzbuhlit/files/output.log
+2024-03-02 01:33:55,453 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 01:34:00,454 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 01:34:05,455 DEBUG   HandlerThread:3538583 [handler.py:handle_request():146] handle_request: status_report
+2024-03-02 01:34:09,218 DEBUG   SenderThread:3538583 [sender.py:send():382] send: stats
+2024-03-02 01:34:11,070 INFO    MainThread:3538583 [internal.py:handle_exit():76] Internal process exited

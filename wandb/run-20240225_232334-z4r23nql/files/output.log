@@ -1,0 +1,40 @@
+
+[480 360  32]
+Using MSE for heatmap regression, weight: 100
+Using L1 for offset regression, weight: 10
+[PANOPTIC EVAL] IGNORE:  [ 0 20]
+[PANOPTIC EVAL] INCLUDE:  [ 1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19]
+  0%|                                                                                                                                                                                                             | 0/1018 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "train_distributed.py", line 609, in <module>
+    main()
+  File "train_distributed.py", line 270, in main
+    for i_iter_val, val_dict in enumerate(val_dataset_loader):
+  File "/opt/conda/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 633, in __next__
+    data = self._next_data()
+  File "/opt/conda/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1345, in _next_data
+    return self._process_data(data)
+  File "/opt/conda/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1371, in _process_data
+    data.reraise()
+  File "/opt/conda/lib/python3.8/site-packages/torch/_utils.py", line 644, in reraise
+    raise exception
+FileNotFoundError: Caught FileNotFoundError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/torch/utils/data/_utils/worker.py", line 308, in _worker_loop
+    data = fetcher.fetch(index)
+  File "/opt/conda/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/opt/conda/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/poscoict/Desktop/samseg3d_final/dataloader/dataset_distributed.py", line 534, in __getitem__
+    data = self.point_cloud_dataset[index]
+  File "/home/poscoict/Desktop/samseg3d_final/dataloader/dataset_distributed.py", line 198, in __getitem__
+    imgfea, segfea, segscore, anchorpos = self._load_sam(index)
+  File "/home/poscoict/Desktop/samseg3d_final/dataloader/dataset_distributed.py", line 151, in _load_sam
+    imgfea = torch.load(imgfea_path, map_location='cpu')
+  File "/opt/conda/lib/python3.8/site-packages/torch/serialization.py", line 791, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/opt/conda/lib/python3.8/site-packages/torch/serialization.py", line 271, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/opt/conda/lib/python3.8/site-packages/torch/serialization.py", line 252, in __init__
+    super().__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: '/home/poscoict/Desktop/SemKITTI_processed/08/img_fea/002036.pt'

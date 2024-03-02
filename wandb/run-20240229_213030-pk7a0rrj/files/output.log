@@ -1,0 +1,164 @@
+
+[480 360  32]
+load checkpoint file /visionai-postech/eccv24/nusc_ckpts/nusc_full_cont_13epoch.pt
+Using MSE for heatmap regression, weight: 100
+Using L1 for offset regression, weight: 10
+======
+Loading NuScenes tables for version v1.0-trainval...
+Loading nuScenes-lidarseg...
+Loading nuScenes-panoptic...
+32 category,
+8 attribute,
+4 visibility,
+64386 instance,
+12 sensor,
+10200 calibrated_sensor,
+2631083 ego_pose,
+68 log,
+850 scene,
+34149 sample,
+2631083 sample_data,
+1166187 sample_annotation,
+4 map,
+34149 lidarseg,
+34149 panoptic,
+Done loading in 37.890 seconds.
+======
+Reverse indexing ...
+Done reverse indexing in 9.8 seconds.
+======
+[PANOPTIC EVAL] IGNORE:  [ 0 17]
+[PANOPTIC EVAL] INCLUDE:  [ 1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16]
+restart from 13 epoch
+Epoch 13 => Start Training...
+epoch: 0   lr: 0.00400
+epoch: 1   lr: 0.00400
+epoch: 2   lr: 0.00400
+epoch: 3   lr: 0.00400
+epoch: 4   lr: 0.00400
+epoch: 5   lr: 0.00400
+epoch: 6   lr: 0.00400
+epoch: 7   lr: 0.00400
+epoch: 8   lr: 0.00400
+epoch: 9   lr: 0.00400
+epoch: 10   lr: 0.00400
+epoch: 11   lr: 0.00400
+epoch: 12   lr: 0.00400
+epoch: 13   lr: 0.00400
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

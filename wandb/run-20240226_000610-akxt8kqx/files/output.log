@@ -1,0 +1,35 @@
+
+[480 360  32]
+Using MSE for heatmap regression, weight: 100
+Using L1 for offset regression, weight: 10
+[PANOPTIC EVAL] IGNORE:  [ 0 20]
+[PANOPTIC EVAL] INCLUDE:  [ 1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19]
+
+
+
+
+
+
+
+  1%|██                                                                                                                                                                                                  | 11/1018 [00:23<36:02,  2.15s/it]
+  0%|                                                                                                                                                                                                             | 0/2392 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+  0%|▍                                                                                           | 11/2392 [02:20<8:28:25, 12.81s/it, sem_loss=3.19, center_loss=7.56, offset_loss=0.921, instmap_loss=3.76, cont_loss=10.3, avg_loss=16.6]
+  0%|                                                                                                                                                                                                             | 0/1018 [00:00<?, ?it/s]
+
+
+
+
+
+
+

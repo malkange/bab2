@@ -1,0 +1,65 @@
+
+[480 360  32]
+Using MSE for heatmap regression, weight: 100
+Using L1 for offset regression, weight: 10
+[PANOPTIC EVAL] IGNORE:  [ 0 20]
+[PANOPTIC EVAL] INCLUDE:  [ 1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19]
+Epoch 0 => Start Evaluation...
+epoch: 0   lr: 0.00400
+
+
+
+
+
+
+
+
+
+  1%|██                                                                                                                                                                                                  | 11/1018 [00:25<38:49,  2.31s/it]
+****************************************
+Validation per class PQ, SQ, RQ and IoU:
+                 car :   0.00%    0.00%    0.00%    0.00%
+             bicycle :   0.00%    0.00%    0.00%    0.00%
+          motorcycle :   0.00%    0.00%    0.00%    0.00%
+               truck :   0.00%    0.00%    0.00%    0.00%
+                 bus :   0.00%    0.00%    0.00%    0.00%
+              person :   0.00%    0.00%    0.00%    0.00%
+           bicyclist :   0.00%    0.00%    0.00%    0.00%
+        motorcyclist :   0.00%    0.00%    0.00%    0.00%
+                road :   0.00%    0.00%    0.00%    0.05%
+             parking :   0.00%    0.00%    0.00%    1.17%
+            sidewalk :   0.00%    0.00%    0.00%    0.03%
+        other-ground :   0.00%    0.00%    0.00%    0.00%
+            building :   0.00%    0.00%    0.00%    0.08%
+               fence :   0.00%    0.00%    0.00%    1.47%
+          vegetation :   0.00%    0.00%    0.00%    0.00%
+               trunk :   0.00%    0.00%    0.00%    0.09%
+             terrain :   0.00%    0.00%    0.00%    0.02%
+                pole :   0.00%    0.00%    0.00%    0.00%
+        traffic-sign :   0.00%    0.00%    0.00%    0.15%
+PQ 0.0  PQ_dagger  0.0  SQ 0.0  RQ 0.0  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 0.0  SQ_st 0.0  RQ_st 0.0  |  mIoU 0.2
+Current val PQ is 0.0 while the best val PQ is 0.0
+Current val miou is 0.2
+Validation per class iou:
+car : 0.20%
+bicycle : 0.00%
+motorcycle : 0.00%
+truck : 0.00%
+bus : 0.00%
+person : 0.00%
+bicyclist : 0.00%
+motorcyclist : 0.00%
+road : 0.05%
+parking : 1.17%
+sidewalk : 0.03%
+other-ground : 0.00%
+building : 0.08%
+fence : 1.48%
+vegetation : 0.00%
+trunk : 0.09%
+terrain : 0.02%
+pole : 0.00%
+traffic-sign : 0.15%
+Current val miou is 0.2
+  0%|                                                                                                                                                                                                             | 0/2392 [00:00<?, ?it/s]
+timecost for a validation 43098.59765625
